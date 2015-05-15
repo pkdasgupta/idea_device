@@ -30,10 +30,10 @@
 echo -e "\n\n File : $1"
 
 # Displaying Sample Contents of File :
-echo -e "\n Sample Contents : "
+echo -e "\n Sample Contents : \n"
 tail $1
 
-echo -e "\n\n Sum of Values from the 3rd Field : "
+echo -e "\n\n Computing Sum : "
 sum=0
 
 # Computing Sum :
@@ -44,6 +44,7 @@ do
 done
 
 # Diplaying Result :
-echo -e " = $sum \n\n"
+echo -e " = $sum \n"
+echo -e "\n\n Sum of Values from the 3rd Field = $sum \n\n"
 
 exit
